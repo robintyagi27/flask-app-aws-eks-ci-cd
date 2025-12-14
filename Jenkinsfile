@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO>.git'
+                    url: 'https://github.com/robintyagi27/flask-app-aws-eks-ci-cd.git'
             }
         }
 
