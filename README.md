@@ -43,6 +43,7 @@ flask-app-aws-eks-ci-cd/
 ├── app/
 
 │   ├── app.py
+
 │   └── requirements.txt
 
 ├──── Dockerfile
@@ -50,15 +51,21 @@ flask-app-aws-eks-ci-cd/
 ├── k8s/
 
 │   ├── deployment.yaml
+
 │   └── service.yaml
 |
 ├── terraform/
 
 │   ├── provider.tf
+
 │   ├── variables.tf
+
 │   ├── vpc.tf
+
 │   ├── eks.tf
+
 │   ├── ecr.tf
+
 │   └── outputs.tf
 
 ├── Jenkinsfile
