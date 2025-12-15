@@ -243,7 +243,7 @@ Expected output:
 
 Flask App Running on AWS EKS 
 
-# screeshot
+# Screenshot
 ![page-open](https://github.com/user-attachments/assets/00654213-9db6-4754-ab1f-9e50cdc53335)
 
 # Security Considerations
