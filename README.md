@@ -41,10 +41,10 @@ Kubernetes – Application orchestration
 flask-app-aws-eks-ci-cd/
 
 ├── app/
-|
+
 │   ├── app.py
 │   └── requirements.txt
-|
+
 ├──── Dockerfile
 |
 ├── k8s/
