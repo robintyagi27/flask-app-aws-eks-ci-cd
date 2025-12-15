@@ -39,6 +39,7 @@ Kubernetes – Application orchestration
 # Repository Structure
 
 flask-app-aws-eks-ci-cd/
+
 ├── app/
 |
 │   ├── app.py
