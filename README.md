@@ -116,7 +116,7 @@ terraform init
 terraform plan
 terraform apply
 
-# screenshot
+# Screenshot
 ![terraform-init](https://github.com/user-attachments/assets/97a77afd-a319-4da2-9d9c-38a2d558f1cb)
 
 ![terraform-plan](https://github.com/user-attachments/assets/0a1af4d9-952e-4676-8bad-4e5e29020029)
@@ -137,7 +137,7 @@ Local Build (Optional)
 docker build -t flask-app .
 docker run -p 5000:5000 flask-app
 
-# screenshot
+# Screenshot
 <img width="1281" height="791" alt="image" src="https://github.com/user-attachments/assets/b949ac46-1b8a-43ec-9604-9c284b1e1b4b" />
 
 # Kubernetes Deployment
@@ -160,7 +160,7 @@ kubectl apply -f k8s/
 kubectl get pods
 kubectl get svc
 
-# screesnhot
+# Screenshot
 ![aws-eks-created-flasks](https://github.com/user-attachments/assets/173b08e0-01dd-404d-aaa9-b29e8f6d2bb2)
 
 ![Aws-ecr-image-upload](https://github.com/user-attachments/assets/c4795667-d5cb-4a2b-a35c-f4838111d097)
@@ -177,12 +177,14 @@ Pulls source code from GitHub
 
 Build Docker Image
 Builds Flask application image
-# screesnhot
+
+# Screenshot
 <img width="1281" height="791" alt="image" src="https://github.com/user-attachments/assets/5cf96d1c-dddc-4708-93c2-95148638c16c" />
 
 
 Login to AWS ECR
 Authenticates Docker with ECR
+
 # Screenshot
 ![ecr-login](https://github.com/user-attachments/assets/6a48916e-9f7f-48ab-a6c5-36cb539fc85d)
 
@@ -190,18 +192,20 @@ Authenticates Docker with ECR
 Push Image to ECR
 Pushes latest image to AWS ECR
 
-# screenshot
+# Screenshot
 ![Aws-ecr-image-upload](https://github.com/user-attachments/assets/d80d393b-bc3a-47a1-a9e0-daea40a72f21)
 
 ![Aws-ecr-image-upload2](https://github.com/user-attachments/assets/baf83af7-b9e5-4f66-a6c4-98e31cfc5103)
 
 Deploy to EKS
 Applies Kubernetes manifests and verifies rollout
+
 # Screenshot
 ![aws-eks-created-flasks](https://github.com/user-attachments/assets/4dcce04a-090e-4deb-aa45-761b9000e431)
 
 Jenkinsfile Overview
 Checkout → Build → ECR Login → Push Image → Deploy to EKS
+
 # screenshot
 ![jenkins-output](https://github.com/user-attachments/assets/6af10786-13c5-4640-84e8-bf53b94427d1)
 
