@@ -37,22 +37,31 @@ Docker – Application containerization
 Kubernetes – Application orchestration
 
 # Repository Structure
+
 flask-app-aws-eks-ci-cd/
 ├── app/
+|
 │   ├── app.py
 │   └── requirements.txt
+|
 ├──── Dockerfile
+|
 ├── k8s/
+|
 │   ├── deployment.yaml
 │   └── service.yaml
+|
 ├── terraform/
+|
 │   ├── provider.tf
 │   ├── variables.tf
 │   ├── vpc.tf
 │   ├── eks.tf
 │   ├── ecr.tf
 │   └── outputs.tf
+|
 ├── Jenkinsfile
+|
 └── README.md
 
 # Prerequisites
